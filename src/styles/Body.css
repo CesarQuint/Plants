@@ -1,0 +1,11 @@
+div.pot{
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    background-color:var(--greenShadow);
+    top: 19rem;
+    left: 16rem;
+    border-radius: 50%;
+    border: 0.5rem solid black;
+    z-index: 20;
+}

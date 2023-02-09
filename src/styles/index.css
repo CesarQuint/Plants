@@ -1,4 +1,15 @@
+@import url(./Head.css);
+@import url(./Body.css);
+:root{
+  --greenShadow:#5c9340;
+  --green:#8cc63e;
+  --greenBg:#d4e04c;
+}
+
 *{
   padding: 0;
   margin: 0;
+}
+
+.container{
 }

@@ -1,0 +1,183 @@
+
+div.head-container{
+position: relative;
+background-color: gray;
+height:40rem;
+width: 75%;
+margin: auto;
+margin-top: 2rem;
+}
+div.head-container section.head{
+    position: absolute;
+    clip-path: circle(50% at 50% 50%);
+    height:20rem ;
+    width: 20rem;
+    top:1rem;
+    left: 5rem;
+    z-index: 40;
+    background-color:var(--greenShadow);
+}
+div.head-container section.head-shadow{
+    position: absolute;
+    clip-path: ellipse(29% 40% at 50% 50%);
+    height:25rem ;
+    width: 23rem;
+    top: -1.4rem;
+    left: 3.5rem;
+    background-color:var(--green);
+    transform: rotate(45deg);
+    z-index: 60;
+}
+
+div.head-container section.mouth{
+    position: absolute;
+    clip-path: ellipse(29% 40% at 50% 50%);
+    height:15rem ;
+    width: 18rem;
+    top:5rem;
+    left: 18rem;
+    background-color:var(--green);
+    transform: rotate(22deg);
+    z-index: 50;
+}
+div.head-container section.bordersbh{
+    position: absolute;
+    clip-path: circle(50% at 50% 50%);
+    height:21rem ;
+    width: 21rem;
+    top:0.5rem;
+    left: 4.5rem;
+    z-index:30;
+    background-color:#000; 
+}
+div.head-container section.mouthSw{
+    position: absolute;
+    clip-path: ellipse(29% 40% at 50% 50%);
+    height:16rem ;
+    width: 19rem;
+    top:4.5rem;
+    left: 17.7rem;
+    background-color:black;
+    transform: rotate(22deg);
+    z-index: 40;
+}
+div.head-container section.headBg{
+    position: absolute;
+    clip-path: circle(50% at 100% 50%);
+    height:20rem ;
+    width: 20rem;
+    top:-6rem;
+    left: -2rem;
+    z-index: 50;
+    transform: rotate(45deg);
+    background-color:var(--greenBg);
+}
+
+div.head-container div.hole{
+    position: absolute;
+    clip-path: ellipse(29% 40% at 50% 50%);
+    height:11rem ;
+    width: 11rem;
+    top:7.3rem;
+    left: 23rem;
+    background-color:var(--greenShadow);
+    transform: rotate(22deg);
+    z-index: 70;
+}
+div.head-container div.holeT{
+    content: " ";
+    position: absolute;
+    clip-path: ellipse(29% 40% at 50% 50%);
+    height:9rem ;
+    width:8rem;
+    top:8.3rem;
+    left: 23.2rem;
+    transform: rotate(20deg);
+    background-color:black;
+    z-index: 70;
+}
+div.head-container div.holeSw{
+    position: absolute;
+    clip-path: ellipse(29% 40% at 50% 50%);
+    height:11.4rem ;
+    width: 11.6rem;
+    top:7rem;
+    left: 22.4rem;
+    background-color:black;
+    transform: rotate(22deg);
+    z-index: 60;
+}
+
+div.head-container div.bright{
+    position: absolute;
+    clip-path: ellipse(29% 40% at 50% 50%);
+     top: -1.5rem;
+     right: 21.5rem;
+     height: 12rem;
+     width: 6rem;
+     background-color: #f1f4bf;
+     border-radius: 50%;
+     z-index: 80;
+     transform: rotate(58deg);
+}
+div.head-container div.brightMd{
+    position: absolute;
+    clip-path: ellipse(29% 40% at 50% 50%);
+     top: 7.2rem;
+     right: 8.8rem;
+     height: 4.2rem;
+     width: 4rem;
+     background-color: #f1f4bf;
+     z-index: 80;
+     transform: rotate(35deg);
+}
+div.head-container section.eyes-container div.eyes{
+    position: absolute;  
+    top: 5rem;
+    right: 16.5rem;
+    z-index: 70;
+    background-color: #000;
+}
+div.head-container section.eyes-container div.eyes#left{
+    height: 4rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    transform: rotate(-20deg);
+}
+div.eyes#left::after{
+    content: "";
+    height: 2rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 0.4rem;
+    left: 0.1rem;
+}
+div.head-container section.eyes-container div.eyes#right{
+    position: absolute;
+    top: 4.6rem;
+    right: 12rem;
+    height: 3.5rem;
+    width: 2.2rem;
+    border-radius: 50%;
+    transform: rotate(-25deg);
+}
+div.eyes#right::after{
+    content: "";
+    height: 1.7rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 0.2rem;
+    left: 0.2rem;
+    transform: rotate(8deg);
+}
+
+
+
+
+
+
+
