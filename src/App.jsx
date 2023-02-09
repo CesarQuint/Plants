@@ -1,6 +1,6 @@
 import Body from "./components/Body"
 import Head from "./components/Head"
-import styles from './styles/index.css'
+import  './styles/index.css'
 function App() {
  
   return (

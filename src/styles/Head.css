@@ -1,11 +1,10 @@
 
 div.head-container{
 position: relative;
-background-color: gray;
-height:40rem;
-width: 75%;
-margin: auto;
-margin-top: 2rem;
+max-width: 35rem;
+min-width:35rem ;
+background-color: aqua;
+height: 35rem;
 }
 div.head-container section.head{
     position: absolute;
@@ -131,14 +130,15 @@ div.head-container div.brightMd{
      z-index: 80;
      transform: rotate(35deg);
 }
-div.head-container section.eyes-container div.eyes{
+
+div.head-container  div.eyes{
     position: absolute;  
     top: 5rem;
     right: 16.5rem;
     z-index: 70;
-    background-color: #000;
+    background-color: #000;  
 }
-div.head-container section.eyes-container div.eyes#left{
+div.head-container div.eyes#left{
     height: 4rem;
     width: 2.5rem;
     border-radius: 50%;
@@ -154,7 +154,7 @@ div.eyes#left::after{
     top: 0.4rem;
     left: 0.1rem;
 }
-div.head-container section.eyes-container div.eyes#right{
+div.head-container div.eyes#right{
     position: absolute;
     top: 4.6rem;
     right: 12rem;

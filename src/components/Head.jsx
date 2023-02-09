@@ -2,7 +2,6 @@ import React from 'react'
 
 function Head() {
   return (
-    <>
     <div className='head-container'>
         {/*Brightness section */}
         <div className='bright'>
@@ -36,13 +35,11 @@ function Head() {
         </section>
         {/* Shadow Section*/}
         {/* Eyes section*/}
-        <section className='eyes-container'>
-            <div className='eyes' id='left'></div>
-            <div className='eyes' id='right'></div>
-        </section>
+       
+        <div className='eyes' id='left'></div>
+        <div className='eyes' id='right'></div>
     </div>
-    
-    </>
+
   )
 }
 
